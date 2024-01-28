@@ -1,6 +1,9 @@
-## Welcome to - Illusion Engine by: Mr. Asterisk
+## Welcome to -  
+# Illusion Engine
+## by: Mr. Asterisk
 
-# INFO
+
+# --INFO
 
 DIRECTORY FOLDER STRUCTURE (TRUNCATED FOR BETTER UNDERSTANDING)
 /EngineRoot
