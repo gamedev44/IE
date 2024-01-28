@@ -39,7 +39,7 @@ Empowering creators to turn dreams into reality!
 
 **Website:** [Visit Website](https://pgd-developments.w3spaces.com/)
 
-**GitHub:** [GitHub Repository](https://github.com/gamedev44)
+**GitHub:** [GitHub Repository](https://github.com/gamedev44/IE)
 
 **Discord:** [Join our Discord](https://discord.gg/AxG76TVUJa)
 
