@@ -4,9 +4,27 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IllusionEditor"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="Illusion Editor" Height="500" Width="1000">
 
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
+            <RowDefinition />
+        </Grid.RowDefinitions>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="20" Grid.Row="0">
+            <ToggleButton x:Name="openprojectbutton" Content="Open Project" FontFamily="Ummo" FontSize="32" Click="openprojectbutton_Click"/>
+            <ToggleButton x:Name="newprojectbutton" Content="New Project" FontFamily="Ummo" FontSize="32" Margin="30,0,0,0" Click="newprojectbutton_Click"/>
+        </StackPanel>
+
+        <!-- Horizontal Slider -->
+        <Slider x:Name="projectSlider" Minimum="0" Maximum="100" Value="50" Width="200" Margin="10" Grid.Row="1" HorizontalAlignment="Center"/>
+
+        <!-- Content Area -->
+        <StackPanel Orientation="Horizontal" Grid.Row="2">
+            <!-- Add your content here -->
+        </StackPanel>
     </Grid>
 </Window>
